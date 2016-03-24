@@ -49,7 +49,7 @@
   "dependencies": {
     "ember-cli-babel": "^5.1.5",
     "ember-cli-htmlbars": "^1.0.3",
-    "ember-engines": "git+https://github.com/Piedade/ember-engines.git#ca5a29e8689e02af0dfaaf693a560dbaac0e96ff"
+    "ember-engines": "piedade/ember-engines"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
