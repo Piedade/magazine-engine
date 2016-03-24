@@ -2,6 +2,7 @@
   "name": "magazine-engine",
   "version": "0.0.0",
   "description": "The default blueprint for ember-cli addons.",
+  "private": true,
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +12,14 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piedade/magazine-engine.git"
+  },
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Pedro Piedade",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.2.0",
